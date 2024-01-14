@@ -10,11 +10,13 @@
 body {
   font-family: "Outfit", sans-serif;
   margin: 0;
+  text-align: center;
 }
 
-h2 {
+h1 {
   font-weight: 700;
   color: var(--dark-blue);
+  font-size: 1.5rem;
 }
 
 p {
@@ -26,19 +28,18 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .card {
   background-color: var(--white);
-  text-align: center;
-  width: 290px;
   padding: 15px;
   border-radius: 20px;
+  max-width: 18rem;
 }
 .card > img {
-  width: 100%;
-  aspect-ratio: 1;
+  max-width: 100%;
+  display: block;
   border-radius: 10px;
 }
 
